@@ -58,7 +58,8 @@ $ ionic start meuApp tabs
 $ ionic serve
 
 #Construindo projeto
-$ ionic cordova build
+$ npm i -g native-run
+$ ionic cordova build <platform> (android | ios)
 ```
 
 #### Também é possível utilizar com a nova API [Capacitor](https://capacitor.ionicframework.com)
